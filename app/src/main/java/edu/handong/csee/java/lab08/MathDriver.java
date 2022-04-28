@@ -41,12 +41,12 @@ public class MathDriver {
                 break;
             case "Product":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
-                                    ", Answer: " +
+                                    ", Answer: " + args[2] + " * " + args[3] + " = " + 
                                     mathCalculator.getProduct(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
             case "Quotient":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
-                                    ", Answer: " +
+                                    ", Answer: " + args[2] + " / " + args[3] + " = " + 
                                     mathCalculator.getQuotient(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
             case "Remainder":
