@@ -26,7 +26,7 @@ public class MathDriver {
                 break;
             case "Abs":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
-                                    ", Answer: abs(" + args[2] + ") = " +
+                                    ", Answer: " +
                                     mathCalculator.getAbs(Integer.parseInt(args[2])));
                 break;
             case "Sum":
