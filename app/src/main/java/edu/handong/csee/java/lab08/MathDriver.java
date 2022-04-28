@@ -61,7 +61,7 @@ public class MathDriver {
                 break;
             case "Factorial":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
-                                    ", Answer: " +
+                                    ", Answer(Factorial): " + 
                                     mathCalculator.getFactorial(Integer.parseInt(args[2])));
                 break;
             case "Gcd":
