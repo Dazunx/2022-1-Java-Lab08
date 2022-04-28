@@ -56,7 +56,7 @@ public class MathDriver {
                 break;
             case "Power":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
-                                    ", Answer: " +
+                                    ", Answer(" + args[2] + "power of " + args[3] +") :" +
                                     mathCalculator.getPower(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
             case "Factorial":
