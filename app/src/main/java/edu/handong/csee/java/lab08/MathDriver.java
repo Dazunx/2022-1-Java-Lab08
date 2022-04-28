@@ -51,7 +51,7 @@ public class MathDriver {
                 break;
             case "Remainder":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
-                                    ", Answer: " +
+                                    ", Answer: " + args[2] + " % " + args[3] + " = " + 
                                     mathCalculator.getRemainder(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
             case "Power":
