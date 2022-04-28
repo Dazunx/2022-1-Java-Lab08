@@ -1,31 +1,16 @@
 package edu.handong.csee.java.lab08;
 import edu.handong.csee.java.lab08.math.MathCalculator;
 
-/**
- This is a MathDriver class that calculates formulas. 
- @author 22100493 DajeongLee
- */
+
 public class MathDriver {
-    /**
-    * This is the main method of the MathDriver class.
-    * @param args The string to run main method.
-    */
     public static void main(String[] args) {
         MathDriver myDriver = new MathDriver();
         myDriver.run(args);
     }
 
-    /**
-     * This is the method to run the MathDriver class.
-     * @param args The string to run main method.
-     */
     public void run(String[] args) {
 
         MathCalculator mathCalculator = new MathCalculator();
-
-        /**
-         Find out the user's name, and proceed with the calculation of the desired formula and print results.
-        */
         mathCalculator.setName(args[0]);
 
         switch(args[1]){
@@ -34,8 +19,6 @@ public class MathDriver {
                                     ", Answer: " +
                                     mathCalculator.getMax(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
-            // TO DO : Fill the rest of cases below. 
-                    // Do not modify other parts of this file.
             case "Min":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
                                     ", Answer: " +
