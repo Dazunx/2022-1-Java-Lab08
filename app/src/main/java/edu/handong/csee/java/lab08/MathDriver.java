@@ -16,27 +16,27 @@ public class MathDriver {
         switch(args[1]){
             case "Max":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
-                                    ", Answer: " +
+                                    ", Answer: " + 
                                     mathCalculator.getMax(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
             case "Min":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
-                                    ", Answer: " +
+                                    ", Answer: " + 
                                     mathCalculator.getMin(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
             case "Abs":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
-                                    ", Answer: " +
+                                    ", Answer: abs(" + args[2] + ") = " +
                                     mathCalculator.getAbs(Integer.parseInt(args[2])));
                 break;
             case "Sum":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
-                                    ", Answer: " +
+                                    ", Answer: " + args[2] + " + " + args[3] + " = " + 
                                     mathCalculator.getSum(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
             case "Diff":
                 System.out.println("Driver Name: " + mathCalculator.getName() +
-                                    ", Answer: " +
+                                    ", Answer: " + args[2] + " - " + args[3] + " = " + 
                                     mathCalculator.getDiff(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
             case "Product":
